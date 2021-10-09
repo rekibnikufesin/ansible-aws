@@ -1,0 +1,8 @@
+---
+  dev_team:
+    - username: your_username
+      uid: 5001
+      fullname: Your FullName
+      type: admin
+      state: present
+      key: ssh-rsa your-public-key

@@ -1,0 +1,7 @@
+---
+- name: Ansible Test Playbook
+  gather_facts: false
+  hosts: tag_Role_webserver
+  tasks:
+    - name: Run Shell Command
+      command: echo "Hello World"

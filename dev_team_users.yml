@@ -1,0 +1,8 @@
+---
+# Playbook to allow dev team members access to dev environment EC2 instances
+- name: add Dev Team users to EC2 instances in dev
+  hosts: tag_Env_dev
+  gather_facts: true
+  become: true
+  roles:
+    - dev_team
